@@ -21,6 +21,10 @@ body {
   padding: 20px;
 }
 
+div#links{
+  text-align: center;
+  padding: 20px;
+}
 /* Center content for a clean, terminal-like display */
 header,
 footer {
@@ -46,9 +50,12 @@ footer p {
   opacity: 0.7;
 }
 
+a{
+  color: #00FF00;
+}
 /* Define the blinking animation */
 @keyframes blink {
   50% {
-    opacity: 0;
+    opacity: 25%;
   }
 }
