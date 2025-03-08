@@ -1,0 +1,16 @@
+/* styles.css */
+
+/* Basic reset to remove default margins/padding */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #1c1c1c; /* Dark background */
+  }
+  
+  /* Make the terminal take up the full screen */
+  #terminal {
+    width: 100%;
+    height: 100%;
+  }
+  
